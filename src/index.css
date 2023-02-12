@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --darknavy: "#020c1a";
+  --navy: "#0a192e";
+  --lightnavy: "#112242";
+  --lightestnavy: "#233553";
+  --navyshadow: "rgba(2;12;27;0.6)";
+  --darkslate: "#495470";
+  --slate: "#8782b0";
+  --lightslate: "#a8b2d1";
+  --lightestslate: "#ccd6f6";
+  --white: "#e6f1ff";
+  --green: "#64efdb";
+  --greentint: "rgba(100;255;218;0.3)";
+  --pink: "#f57def";
+  --blue: "#57caef";
+  --cherry: "#CC3B50";
+  --primary-font: "Anek Telugu", sans-serif;
+  --alternate-font: "Space Grotesk", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--alternate-font);
+}
+
+p,
+span,
+strong,
+small,
+input,
+button,
+a {
+  font-family: var(--primary-font);
+}
+p {
+  color: "#a8b2d1";
+}
+
+.background-text {
+  font-size: 100px;
+  writing-mode: vertical-lr;
+  /* transform: rotate(270deg); */
+}
+
+.will-change-transform {
+  will-change: transform;
+}
+
+.cursor::after {
+  display: block;
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 100%;
+  background-color: #fff;
+  animation: cursor 0.6s linear infinite alternate;
+  will-change: opacity;
+}
+
+@keyframes cursor {
+  0%,
+  40% {
+    opacity: 1;
+  }
+
+  60%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+  66% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-30px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+}
+
+.arrow_down {
+  bottom: 50px;
+  position: absolute;
+  transform: translatey(0px);
+  animation: float 2s ease-in-out infinite;
+}
+.zoom-in {
+  transition: transform 2s ease;
+}
+.zoom-in:hover {
+  transform: scale(1.08);
+}

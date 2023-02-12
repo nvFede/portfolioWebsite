@@ -1,0 +1,77 @@
+[
+    {
+        "imageUrl": "buenavibra.png",
+        "altImg": "Logo Buena Vibra",
+        "websiteUrl": "https://buenavibra.es"
+    },
+    {
+        "imageUrl": "estudio-fischer.png",
+        "altImg": "Logo Estudio Fischer",
+        "websiteUrl": "https://www.estudiofischer.com"
+    },
+    {
+        "imageUrl": "elw.png",
+        "altImg": "Logo Emma Luxury Weddings",
+        "websiteUrl": "https://emmaluxuryweddings.com/"
+    },
+    {
+        "imageUrl": "fema.png",
+        "altImg": "Logo Fema Digital",
+        "websiteUrl": "https://femadigital.com"
+    },
+    {
+        "imageUrl": "lcrz.png",
+        "altImg": "Logo Lacroze",
+        "websiteUrl": "https://lacroze.com.ar"
+    },
+    {
+        "imageUrl": "living.png",
+        "altImg": "Logo Living Pilates",
+        "websiteUrl": "https://www.livingpilatesfuengirola.com/"
+    },
+    {
+        "imageUrl": "marbelli.png",
+        "altImg": "Logo Marbelli Total SL",
+        "websiteUrl": "https://marbellitotalsl.com"
+    },
+    {
+        "imageUrl": "movidasana.png",
+        "altImg": "Logo MOvida Sana",
+        "websiteUrl": "https://movidasana.com"
+    },
+    {
+        "imageUrl": "mundialeros.png",
+        "altImg": "Logo mundialeros",
+        "websiteUrl": "https://mundialeros.com"
+    },
+    {
+        "imageUrl": "porelviaje.png",
+        "altImg": "Logo Por el Viaje",
+        "websiteUrl": "https://porelmundo.viajes"
+    },
+    {
+        "imageUrl": "shorsh.png",
+        "altImg": "Logo Shorsh",
+        "websiteUrl": "https://shorsh.com"
+    },
+    {
+        "imageUrl": "trocca.png",
+        "altImg": "Logo Trocca Cocinero",
+        "websiteUrl": "https://www.fernandotrocca.com/"
+    },
+    {
+        "imageUrl": "zanotti.png",
+        "altImg": "Logo Zanotti Joyas",
+        "websiteUrl": "https://www.zanottijoyas.com/"
+    },
+    {
+        "imageUrl": "carol.jpeg",
+        "altImg": "Carol Property Logo",
+        "websiteUrl": "https://www.carolproperty.com/"
+    },
+    {
+        "imageUrl": "logo-turisteros.png",
+        "altImg": "Turisteros Logo",
+        "websiteUrl": "https://www.turisteros.es/"
+    }
+]

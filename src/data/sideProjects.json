@@ -1,0 +1,25 @@
+[
+    {
+        "title": "Rick And Morty Wiki",
+        "imageUrl": "rick.png",
+        "imageAlt": "Rick And Morty",
+        "tech": "React, Tailwind CSS, Axios, React Router",
+        "link": "https://nvfede.github.io/rick_n_morty_react/",
+        "description": "Project to know the characters of the Tv show Rick And Morty"
+    },
+    {
+        "title": "Movie Database",
+        "imageUrl": "rick.png",
+        "imageAlt": "Movie Webapp",
+        "tech": "Svelte, Tailwind CSS",
+        "description": "Movie database is a simple webapp to study the Svelte Framework"
+    },
+    {
+        "title": "Seo reports",
+        "imageUrl": "seo.png",
+        "imageAlt": "SEO reports chatGPT Image",
+        "tech": "NextJS, Tailwind CSS, ChatGPT",
+        "link": "https://seo-report-dusky.vercel.app/",
+        "description": "A webapp to generate Seo strategies, using chatGPT artificial intelligence in one click."
+    }
+]
