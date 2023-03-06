@@ -20,18 +20,22 @@ const About = () => {
           Me, Myself <span>&</span> I
         </h2>
         <p className="my-2">
-          I am a fullstack developer, certified Ethereum developer, certified
-          Cryptocurrency Auditor and certified blockchain developer. currently
-          living in Malaga, Spain.
+          I am a fullstack developer with certifications in Ethereum
+          development, cryptocurrency auditing and blockchain development.
+          Currently, I am living in the beautiful city of Malaga in Spain.
         </p>
         <p className="mb-2">
-          I have been developing websites and working with various technologies
-          and languages for many years. I am always looking for new
-          opportunities and am curious about new cutting-edge technologies.
+          Over the years, I have worked with various technologies and languages
+          in developing websites and applications. I am always looking for new
+          opportunities to learn and grow, and I am particularly interested in
+          exploring cutting-edge technologies that can help me improve my
+          skills.
         </p>
         <p className="mb-2">
-          I am also passionate about finance and trading I enjoy life outdoors,
-          learning about new cultures, playing paddle, meditation and good food.
+          Apart from my passion for technology, I am also interested in finance
+          and trading. When I am not coding, you can find me outdoors, exploring
+          new cultures, playing paddle, practising meditation or enjoying good
+          food.
         </p>
       </div>
       <div className="basis-2/5 ">

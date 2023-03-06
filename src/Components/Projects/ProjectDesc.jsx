@@ -10,7 +10,7 @@ const ProjectDesc = ({ project, index }) => {
       data-aos="fade-left"
       data-aos-duration={600}
       data-aos-easing="ease-out-cubic"
-      data-anchor="#clients"
+      data-anchor="#projects"
 
     >
       <h4 className="text-green text-sm font-light">{project.tech}</h4>
@@ -21,7 +21,7 @@ const ProjectDesc = ({ project, index }) => {
       </p>
       <a
         href={project.link}
-        rel="nofollow"
+        rel="noreferrer"
         target="_blank"
         className={`font-light border-spacing-1 border  mt-auto
            border-green uppercase text-green p-2  w-24 text-xs text-center hover:bg-greentint

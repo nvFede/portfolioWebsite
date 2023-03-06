@@ -8,7 +8,7 @@ const ClientCard = ({ clientsData }) => {
           return (
             <a
               href={client.websiteUrl}
-              rel="nofollow"
+              rel="noreferrer"
               target="_blank"
               key={index}
               className="p-0 md:p-4 bg-lightnavy flex align-middle  

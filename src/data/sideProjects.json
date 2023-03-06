@@ -1,18 +1,10 @@
 [
     {
-        "title": "Rick And Morty Wiki",
-        "imageUrl": "rick.png",
-        "imageAlt": "Rick And Morty",
-        "tech": "React, Tailwind CSS, Axios, React Router",
-        "link": "https://nvfede.github.io/rick_n_morty_react/",
-        "description": "Project to know the characters of the Tv show Rick And Morty"
-    },
-    {
-        "title": "Movie Database",
-        "imageUrl": "rick.png",
-        "imageAlt": "Movie Webapp",
-        "tech": "Svelte, Tailwind CSS",
-        "description": "Movie database is a simple webapp to study the Svelte Framework"
+        "title": "Decentralized CrowdFunding App",
+        "imageUrl": "crowdfun.png",
+        "imageAlt": "Crowdfunding DAPP",
+        "tech": "NextJS, Tailwind CSS, EtherJS, Hardhat, Ethereum Goerli Network, Thirdweb SDK",
+        "description": "A decentralized crowdfunding application that empowers users to raise funds for their projects."
     },
     {
         "title": "Seo reports",
@@ -21,5 +13,13 @@
         "tech": "NextJS, Tailwind CSS, ChatGPT",
         "link": "https://seo-report-dusky.vercel.app/",
         "description": "A webapp to generate Seo strategies, using chatGPT artificial intelligence in one click."
+    },
+    {
+        "title": "Rick And Morty Wiki",
+        "imageUrl": "rick.png",
+        "imageAlt": "Rick And Morty",
+        "tech": "React, Tailwind CSS, Axios, React Router",
+        "link": "https://nvfede.github.io/rick_n_morty_react/",
+        "description": "Project to know the characters of the Tv show Rick And Morty"
     }
 ]

@@ -1,5 +1,10 @@
 [
     {
+        "imageUrl": "Logo_triple_crown.jpg",
+        "altImg": "Logo Triple Crown",
+        "websiteUrl": "https://triplecrown.se"
+    },
+    {
         "imageUrl": "buenavibra.png",
         "altImg": "Logo Buena Vibra",
         "websiteUrl": "https://buenavibra.es"
@@ -28,11 +33,6 @@
         "imageUrl": "living.png",
         "altImg": "Logo Living Pilates",
         "websiteUrl": "https://www.livingpilatesfuengirola.com/"
-    },
-    {
-        "imageUrl": "marbelli.png",
-        "altImg": "Logo Marbelli Total SL",
-        "websiteUrl": "https://marbellitotalsl.com"
     },
     {
         "imageUrl": "movidasana.png",

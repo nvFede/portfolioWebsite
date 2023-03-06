@@ -9,7 +9,7 @@ const Web3 = () => {
     >
       <div className="basis-4/5 flex flex-col justify-center">
       
-
+        <h2>Solidity Projects and Etudes</h2>
         <div className="flex py-10">
           <Card />
         </div>

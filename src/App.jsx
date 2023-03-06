@@ -8,7 +8,6 @@ import Contact from "./Components/Contact";
 import Header from "./Components/Header";
 import Projects from "./Components/Projects";
 import Web3 from "./Components/Web3";
-import Blog from "./Components/Blog";
 import Left from "./Components/Sidebar/Left";
 import Right from "./Components/Sidebar/Right";
 

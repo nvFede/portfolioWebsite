@@ -16,6 +16,7 @@ const Right = () => {
     >
       <a
         target="_blank"
+        rel="noreferrer"
         href="https://twitter.com/nvfede2"
         className="text-2xl text-white hover:text-green mb-5 "
       >
@@ -23,6 +24,7 @@ const Right = () => {
       </a>
       <a
         target="_blank"
+        rel="noreferrer"
         href="https://github.com/nvFede"
         className="text-2xl text-white hover:text-green mb-5"
       >
@@ -30,6 +32,7 @@ const Right = () => {
       </a>
       <a
         target="_blank"
+        rel="noreferrer"
         href="https://codepen.io/nvfede"
         className="text-2xl text-white hover:text-green mb-5"
       >
@@ -37,6 +40,7 @@ const Right = () => {
       </a>
       <a
         target="_blank"
+        rel="noreferrer"
         href="www.linkedin.com/in/gaston-noya"
         className="text-2xl text-white hover:text-green mb-5"
       >

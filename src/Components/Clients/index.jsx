@@ -1,9 +1,9 @@
-import axios from "axios";
-import React, { useEffect, useState } from "react";
+
+import React from "react";
 import clientsData from "../../data/clientes.json";
 import ClientCard from "./ClientCard";
 const Clients = () => {
-  const [clients, setclients] = useState([]);
+  // const [clients, setclients] = useState([]);
 
   return (
     <section
