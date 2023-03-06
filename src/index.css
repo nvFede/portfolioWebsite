@@ -22,6 +22,10 @@
   --alternate-font: "Space Grotesk", sans-serif;
 }
 
+body {
+  background-color: var(--navy);
+}
+
 h1,
 h2,
 h3,

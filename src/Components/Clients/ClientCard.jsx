@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "react-image-webp";
 
 const ClientCard = ({ clientsData }) => {
   return (
@@ -20,12 +21,28 @@ const ClientCard = ({ clientsData }) => {
               data-anchor="#clients"
             >
               <div className="flex justify-center align-middle overflow-hidden p-5">
-                <img
-                  loading="lazy"
-                  className="grayscale object-contain  hover:grayscale-0  flex justify-center align-middle"
+            
+              <Image
+                  className="grayscale object-contain  hover:grayscale-0  
+                                flex justify-center align-middle"
                   src={require(`../../images/clients/${client.imageUrl}`)}
+                  webp={require(`../../images/clients/${client.webP}`)}
+                  loading="lazy"
                   alt={client.altImg}
-                ></img>
+                />
+                {/* <picture>
+                  <source
+                    webp={require(`../../images/clients/${client.webP}`)}
+                    type="image/webp"
+                  />
+                  <img
+                    className="grayscale object-contain  hover:grayscale-0  
+                                flex justify-center align-middle"
+                    src={require(`../../images/clients/${client.imageUrl}`)}
+                    loading="lazy"
+                    alt={client.altImg}
+                  />
+                </picture> */}
               </div>
             </a>
           );

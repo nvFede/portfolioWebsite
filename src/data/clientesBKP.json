@@ -1,71 +1,85 @@
 [
     {
         "imageUrl": "buenavibra.png",
+        "webP": "buenavibra.webp",
         "altImg": "Logo Buena Vibra",
         "websiteUrl": "https://buenavibra.es"
     },
     {
         "imageUrl": "estudio-fischer.png",
+        "webP": "estudio-fischer.webp",
         "altImg": "Logo Estudio Fischer",
         "websiteUrl": "https://www.estudiofischer.com"
     },
     {
         "imageUrl": "elw.png",
+        "webP": "elw.webp",
         "altImg": "Logo Emma Luxury Weddings",
         "websiteUrl": "https://emmaluxuryweddings.com/"
     },
     {
         "imageUrl": "fema.png",
+        "webP": "fema.webp",
         "altImg": "Logo Fema Digital",
         "websiteUrl": "https://femadigital.com"
     },
     {
         "imageUrl": "lcrz.png",
+        "webP": "lcrz.webp",
         "altImg": "Logo Lacroze",
         "websiteUrl": "https://lacroze.com.ar"
     },
     {
         "imageUrl": "living.png",
+        "webP": "living.webp",
         "altImg": "Logo Living Pilates",
         "websiteUrl": "https://www.livingpilatesfuengirola.com/"
     },
     {
         "imageUrl": "marbelli.png",
+        "webP": "marbelli.webp",
         "altImg": "Logo Marbelli Total SL",
         "websiteUrl": "https://marbellitotalsl.com"
     },
     {
         "imageUrl": "movidasana.png",
+        "webP": "movidasana.webp",
         "altImg": "Logo MOvida Sana",
         "websiteUrl": "https://movidasana.com"
     },
     {
         "imageUrl": "mundialeros.png",
+        "webP": "mundialeros.webp",
         "altImg": "Logo mundialeros",
         "websiteUrl": "https://mundialeros.com"
     },
     {
         "imageUrl": "porelviaje.png",
+        "webP": "porelviaje.webp",
         "altImg": "Logo Por el Viaje",
         "websiteUrl": "https://porelmundo.viajes"
     },
     {
         "imageUrl": "shorsh.png",
+        "webP": "shorsh.webp",
         "altImg": "Logo Shorsh",
         "websiteUrl": "https://shorsh.com"
     },
     {
         "imageUrl": "trocca.png",
+        "webP": "trocca.webp",
         "altImg": "Logo Trocca Cocinero",
         "websiteUrl": "http://www.fernandotrocca.com/"
     },
     {
         "imageUrl": "zanotti.png",
+        "webP": "zanotti.webp",
         "altImg": "Logo Zanotti Joyas",
         "websiteUrl": "http://www.zanottijoyas.com/"
     },
     {
         "imageUrl": "zboutique.png",
+        "webP": "zboutique.webp",
         "altImg": "Logo Zboutique",
         "websiteUrl": "http://www.zboutique.com/"
     }
