@@ -1,14 +1,16 @@
 [
     {
         "title": "Decentralized CrowdFunding App",
-        "imageUrl": "crowdfun.png",
+        "imageUrl": "crowdfun.jpg",
+        "webP": "crowdfun.webp",
         "imageAlt": "Crowdfunding DAPP",
         "tech": "NextJS, Tailwind CSS, EtherJS, Hardhat, Ethereum Goerli Network, Thirdweb SDK",
         "description": "A decentralized crowdfunding application that empowers users to raise funds for their projects."
     },
     {
         "title": "Seo reports",
-        "imageUrl": "seo.png",
+        "imageUrl": "seo.jpg",
+        "webP": "seo.webp",
         "imageAlt": "SEO reports chatGPT Image",
         "tech": "NextJS, Tailwind CSS, ChatGPT",
         "link": "https://seo-report-dusky.vercel.app/",
@@ -16,7 +18,8 @@
     },
     {
         "title": "Rick And Morty Wiki",
-        "imageUrl": "rick.png",
+        "imageUrl": "rick.jpg",
+        "webP": "rick.webp",
         "imageAlt": "Rick And Morty",
         "tech": "React, Tailwind CSS, Axios, React Router",
         "link": "https://nvfede.github.io/rick_n_morty_react/",
