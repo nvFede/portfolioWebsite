@@ -1,22 +1,22 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import env from "react-dotenv";
+//import env from "dotenv";
 
 const Contact = () => {
   const form = useRef();
 
   const [message, setMessage] = useState('');
 
-
+  console.log('REACT_APP_SERVICE_KEY: ', process.env.REACT_APP_SERVICE_KEY)
 
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
       .sendForm(
-        process.env.SERVICE_KEY,
-        process.env.TEMPLATE_KEY,
+        process.env.REACT_APP_SERVICE_KEY,
+        process.env.REACT_APP_TEMPLATE_KEY,
         form.current,
-        process.env.API_KEY
+        process.env.REACT_APP_API_KEY
       )
       .then(
         (result) => {
@@ -97,3 +97,4 @@ const Contact = () => {
 };
 
 export default Contact;
+
