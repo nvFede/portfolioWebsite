@@ -53,6 +53,9 @@ const Contact = () => {
         </p>
         <div className="relative mb-4">
           <form ref={form} onSubmit={sendEmail}>
+          
+          
+
             <label className="leading-7 text-sm text-gray-600">Name</label>
             <input
               type="text"
@@ -80,6 +83,7 @@ const Contact = () => {
               value="Send"
               className="text-green  border border-green uppercase py-2 px-6 focus:outline-none hover:bg-greentint text-lg"
             />
+            <div class="g-recaptcha" data-sitekey={process.env.REACT_APP_CAPTCHA}></div>
           </form>
         </div>
       </div>
