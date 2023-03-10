@@ -35,7 +35,7 @@ const Home = () => {
         data-aos-duration="1000"
         data-aos-easing="ease-in-out"
         data-anchor="#home"
-        href="#contact"
+        href="mailto:hello@federiconoya.com"
         className=" font-bold border-2  border-green p-3 uppercase text-green my-3 w-48 text-center hover:bg-greentint"
       >
         Contact Me

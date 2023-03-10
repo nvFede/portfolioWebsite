@@ -5,9 +5,9 @@ import emailjs from "@emailjs/browser";
 const Contact = () => {
   const form = useRef();
 
-  const [message, setMessage] = useState('');
+  const [message, setMessage] = useState("");
 
-  console.log('REACT_APP_SERVICE_KEY: ', process.env.REACT_APP_SERVICE_KEY)
+  console.log("REACT_APP_SERVICE_KEY: ", process.env.REACT_APP_SERVICE_KEY);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -38,20 +38,24 @@ const Contact = () => {
       className="bg-slate-400 h-screen w-full flex justify-center items-center px-5"
     >
       <div className="hidden md:flex flex-col basis-2/5 ">
-        <h3 className="text-2xl text-cherry">
+        <h3 className="text-2xl text-green">
           Let's start working together to build something awesome
         </h3>
       </div>
 
       <div className="flex flex-col md:basis-2/5">
-        <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">
-          Let's talk
-        </h2>
         <p className="leading-relaxed mb-5 text-gray-600">
           If you have any queries or questions, please don't hesitate in contact
           me.
         </p>
-        <div className="relative mb-4">
+        <a
+          className=" font-bold border-2  border-green p-3 uppercase text-green my-3 w-48 text-center hover:bg-greentint"
+          href="mailto:hello@federiconoya.com"
+        >
+          Contact me
+        </a>
+      </div>
+      {/* <div className="relative mb-4">
           <form ref={form} onSubmit={sendEmail}>
           
           
@@ -86,7 +90,7 @@ const Contact = () => {
             <div class="g-recaptcha" data-sitekey={process.env.REACT_APP_CAPTCHA}></div>
           </form>
         </div>
-      </div>
+      </div> */}
 
       <div
         data-aos="fade-in"
@@ -101,4 +105,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
