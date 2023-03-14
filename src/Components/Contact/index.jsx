@@ -78,12 +78,15 @@ const Contact = () => {
               {message}
             
             </p>
-            <input
+           <div className="flex justify-between">
+           <div className="g-recaptcha"  data-sitekey={process.env.REACT_APP_CAPTCHA}></div>
+           <input
               type="submit"
               value="Send"
-              className="text-green  border border-green uppercase py-2 px-6 focus:outline-none hover:bg-greentint text-lg"
+              className="text-green  border border-green uppercase py-2 px-6 focus:outline-none hover:bg-greentint text-lg "
             />
-            <div class="g-recaptcha" data-sitekey={process.env.REACT_APP_CAPTCHA}></div>
+          
+           </div>
           </form>
         </div>
       </div>
