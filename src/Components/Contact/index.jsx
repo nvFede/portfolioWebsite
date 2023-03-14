@@ -1,19 +1,11 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-//import env from "dotenv";
 
 const Contact = () => {
   const form = useRef();
 
-<<<<<<< HEAD
   const [message, setMessage] = useState("");
 
-  console.log("REACT_APP_SERVICE_KEY: ", process.env.REACT_APP_SERVICE_KEY);
-
-=======
-  const [message, setMessage] = useState('');
-  
->>>>>>> dev
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
@@ -48,57 +40,43 @@ const Contact = () => {
         </h3>
       </div>
 
-      <div className="flex flex-col md:basis-2/5">
+      <div className="relative mb-4">
         <p className="leading-relaxed mb-5 text-gray-600">
           If you have any queries or questions, please don't hesitate in contact
           me.
         </p>
-        <a
-          className=" font-bold border-2  border-green p-3 uppercase text-green my-3 w-48 text-center hover:bg-greentint"
-          href="mailto:hello@federiconoya.com"
-        >
-          Contact me
-        </a>
-      </div>
-      {/* <div className="relative mb-4">
-          <form ref={form} onSubmit={sendEmail}>
-          
-          
-
-            <label className="leading-7 text-sm text-gray-600">Name</label>
+        <form ref={form} onSubmit={sendEmail}>
+          <label className="leading-7 text-sm text-gray-600">Name</label>
+          <input
+            type="text"
+            name="from_name"
+            className="w-full bg-lightestnavy   focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+          />
+          <label className="leading-7 text-sm text-gray-600">Email</label>
+          <input
+            type="email"
+            name="to_name"
+            className="w-full bg-lightestnavy   focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+          />
+          <label className="leading-7 text-sm text-gray-600">Message</label>
+          <textarea
+            name="message"
+            className="w-full bg-lightestnavy   focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+          />
+          <p className="text-xs  text-gray-500 mt-3">{message}</p>
+          <div className="flex justify-between">
+            <div
+              className="g-recaptcha"
+              data-sitekey={process.env.REACT_APP_CAPTCHA}
+            ></div>
             <input
-              type="text"
-              name="from_name"
-              className="w-full bg-lightestnavy   focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-            />
-            <label className="leading-7 text-sm text-gray-600">Email</label>
-            <input
-              type="email"
-              name="to_name"
-              className="w-full bg-lightestnavy   focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-            />
-            <label className="leading-7 text-sm text-gray-600">Message</label>
-            <textarea
-              name="message"
-              className="w-full bg-lightestnavy   focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-            />
-            <p className="text-xs  text-gray-500 mt-3">
-            
-              {message}
-            
-            </p>
-           <div className="flex justify-between">
-           <div className="g-recaptcha"  data-sitekey={process.env.REACT_APP_CAPTCHA}></div>
-           <input
               type="submit"
               value="Send"
               className="text-green  border border-green uppercase py-2 px-6 focus:outline-none hover:bg-greentint text-lg "
             />
-          
-           </div>
-          </form>
-        </div>
-      </div> */}
+          </div>
+        </form>
+      </div>
 
       <div
         data-aos="fade-in"
