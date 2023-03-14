@@ -60,9 +60,9 @@ const Header = () => {
               
             >
               <path
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                clip-rule="evenodd"
+                clipRule="evenodd"
               ></path>
             </svg>
           </button>
@@ -70,8 +70,9 @@ const Header = () => {
             <ul className="flex flex-col p-4 mt-4  rounded-lg md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 ">
               {links.map((link, index) => {
                 return (
-                  <li>
+                  <li key={index}>
                     <a
+                    
                       href={link.path}
                       className="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
                     >

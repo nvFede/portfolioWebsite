@@ -22,7 +22,7 @@ const About = () => {
         <p className="my-2">
           I am a fullstack developer with certifications in Ethereum
           development, cryptocurrency auditing and blockchain development.
-          Currently, I am living in the beautiful city of Malaga in Spain.
+          Currently, I am living in the beautiful province of Malaga in Spain.
         </p>
         <p className="mb-2">
           Over the years, I have worked with various technologies and languages
